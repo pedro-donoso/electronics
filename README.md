@@ -95,7 +95,7 @@ Vuelvo a correr servidor:
 rails s
 ```
 
-### 13 - 
+
 
 
 
