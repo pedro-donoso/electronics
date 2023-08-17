@@ -1,24 +1,48 @@
-# README
+1 - Creo proyecto en terminal:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+rails new electronics -d postgresql
+2 - Entrar al proyecto:
 
-Things you may want to cover:
+cd electronics
+3 - Agrego archivos creados
 
-* Ruby version
+git add .
+git commit -m "primer commit"
+4 - Abro proyecto en vscode:
 
-* System dependencies
+code .
+5 - Creo terminales en vscode:
 
-* Configuration
+postgresql
+rails server
+terminal
+6 - Inicio base de datos de postgresql
 
-* Database creation
+En terminal postgresql ejecutar:
+sudo service postgresql start
+7 - Inicio servidor de rails
 
-* Database initialization
+En terminal rails server ejecutar:
+rails s
+8 - En terminal creo base de datos
 
-* How to run the test suite
+rails db:create
+se crean 2 bases de datos; development y test
 
-* Services (job queues, cache servers, search engines, etc.)
+9 - Crear repositorio GitHub
 
-* Deployment instructions
+Desde source control en vscode:
+Publish Branch
+Public Repository
+Open in GitHub
+10 - Creo controller
 
-* ...
+rails g controller pages home terms privacy
+Se crea el controlador pages con vistas:
+home
+terms
+privacy
+11 - Defino rutas
+
+config:
+routes
