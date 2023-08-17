@@ -167,6 +167,19 @@ agrego link_to abajo y cambio = por : como se indica
 
 ```
 
+### 20 - Agrego las rutas
+
+```
+<li>
+	<%= link_to 'Inicio', root_path, class: "nav-link" %>
+</li>
+<li>
+     <%= link_to 'Productos', products_path, class: "nav-link" %>
+</li>
+<li>
+     <%= link_to 'Nuevo Producto', new_product_path, class: "nav-link" %>
+</li>
+```
 
 
 
