@@ -112,3 +112,46 @@ rails g scaffold Product name:string code:string description:text price:float ur
 ```bash
 rails db:migrate
 ```
+
+### 15 - Visualizo modelo Product:
+
+localhost:3000/products
+
+### 16 - Agrego CDN de Bootstrap  al archivo application.html.erb, ubicado:
+
+- views
+	- layouts
+    	- application.html.erb
+
+
+*coloco sobre cierre head*
+
+```
+css cdn bootstrap
+</head>
+```
+
+*coloco sobre cierre body*
+
+```
+js cdn bootstrap
+</body>
+```
+
+### 17 - Genero Partial Navbar
+
+En carpeta views, creo carpeta shared con archivos navbar y footer
+
+- views 
+  - shared
+    - _navbar.html.erb
+    - _footer.html.erb
+
+
+
+
+
+
+
+
+
