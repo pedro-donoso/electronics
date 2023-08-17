@@ -133,14 +133,13 @@ css cdn bootstrap
 
 *coloco sobre cierre body*
 
-```
 js cdn bootstrap
 </body>
 ```
 
 ### 17 - Genero Partial Navbar
 
-En carpeta views, creo carpeta shared con archivos navbar y footer
+En carpeta views, creo carpeta shared con archivo navbar
 
 - views 
   - shared
