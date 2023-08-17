@@ -133,11 +133,12 @@ css cdn bootstrap
 
 *coloco sobre cierre body*
 
+```
 js cdn bootstrap
 </body>
 ```
 
-### 17 - Genero Partial Navbar
+### 17- Genero Partial Navbar
 
 En carpeta views, creo carpeta shared con archivo navbar
 
@@ -147,9 +148,27 @@ En carpeta views, creo carpeta shared con archivo navbar
 
 ### 18 - Llamo desde el application.html.erb
 
+```
 <%= render 'shared/navbar' %>
 
 <%= yield %>
+```
+
+### 19 - Edito Navbar
+
+agrego link_to abajo y cambio = por : como se indica
+
+```
+<li>
+
+<%= link_to 'Productos', products_path, class: "nav-link" %>
+
+</li>
+
+```
+
+
+
 
 
 
