@@ -144,7 +144,14 @@ En carpeta views, creo carpeta shared con archivo navbar
 - views 
   - shared
     - _navbar.html.erb
-    - _footer.html.erb
+
+### 18 - Llamo desde el application.html.erb
+
+<%= render 'shared/navbar' %>
+
+<%= yield %>
+
+
 
 
 
