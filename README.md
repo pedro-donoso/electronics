@@ -70,7 +70,7 @@ rails g controller pages home terms privacy
 ```
 
 - Se crea el controlador pages con vistas:
-	- home 
+	- home (principal)
 	- terms 
 	- privacy
 
@@ -78,6 +78,26 @@ rails g controller pages home terms privacy
 
 - config:
 	- routes
+
+- descomento root y asigno el controller pages con vista principal home:
+
+root "pages#home"
+
+### 12 - En terminal rails server
+
+Reinicio servidor:
+```bash
+ctrl + c
+```
+
+Vuelvo a correr servidor:
+```bash
+rails s
+```
+
+### 13 - 
+
+
 
 
 
