@@ -181,6 +181,29 @@ agrego link_to abajo y cambio = por : como se indica
 </li>
 ```
 
+#### 21 - Instalo gema annotate:
+
+- En Gemfile -> gem 'annotate' y guardar
+  
+
+- En terminal para instalar la gema:
+
+```
+bundle install
+```
+
+- generar los datos de los modelos:
+
+```
+rails generate annotate:install
+```
+
+- actualizar datos de los modelos:
+
+```
+rake annotate_models
+```
+
 
 
 
