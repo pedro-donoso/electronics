@@ -7,7 +7,7 @@ class CreateProducts < ActiveRecord::Migration[7.0]
       t.float :price
       t.string :url
       t.date :publish_date
-      t.boolean :published
+      t.boolean :published, default: false
 
       t.timestamps
     end

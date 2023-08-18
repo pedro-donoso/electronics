@@ -21,7 +21,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_17_021201) do
     t.float "price"
     t.string "url"
     t.date "publish_date"
-    t.boolean "published"
+    t.boolean "published", default: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

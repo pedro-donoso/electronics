@@ -213,6 +213,37 @@ En product.rb (models)
 
 agregar validaciones
 
+### 23 - Editar productos
+
+Eliminar productos:
+
+```
+rails db:rollback 
+```
+
+editar seeds de productos creados
+
+antes:
+t.boolean :published
+
+despues:
+t.boolean :published, default: false
+
+```
+rails db:migrate
+```
+
+```
+annotate --models
+```
+
+### 24 Edito boton crear producto
+
+```
+<%= form.subit "Crear un Producto" %>
+```
+
+
 
 
 

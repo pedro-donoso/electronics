@@ -8,7 +8,7 @@
 #  name         :string
 #  price        :float
 #  publish_date :date
-#  published    :boolean
+#  published    :boolean          default(FALSE)
 #  url          :string
 #  created_at   :datetime         not null
 #  updated_at   :datetime         not null
