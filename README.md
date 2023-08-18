@@ -204,6 +204,17 @@ rails generate annotate:install
 rake annotate_models
 ```
 
+en el archivo product.rb
+
+### 22 - Creo validaciones de nombre y código:
+
+
+En product.rb (models)
+
+agregar validaciones
+
+
+
 
 
 
