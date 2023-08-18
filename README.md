@@ -243,6 +243,11 @@ annotate --models
 <%= form.subit "Crear un Producto" %>
 ```
 
+### 25 Valido productos
+
+```
+autofocus: true, required: true 
+```
 
 
 
