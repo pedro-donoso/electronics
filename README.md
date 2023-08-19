@@ -243,12 +243,28 @@ annotate --models
 <%= form.subit "Crear un Producto" %>
 ```
 
-### 25 Valido productos
+### 25 Valido productos en el modelo (backend)
 
 ```
 autofocus: true, required: true 
 ```
 
+### 26 Valido desde el frontend
+
+views -> products -> _form.html.erb
+
+### 27 Agrego Faker
+
+Gemfile 
+
+```
+# gemas agregadas por mi
+gem 'faker'
+```
+
+```
+bundle
+```
 
 
 

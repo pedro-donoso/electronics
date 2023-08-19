@@ -74,3 +74,4 @@ end
 # Gemas instaladas por mi
 
 gem 'annotate'
+gem 'faker'
