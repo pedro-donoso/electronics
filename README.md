@@ -275,6 +275,7 @@ rb -> seeds.rb
 
 agrego campos random que completara faker
 
+agrego puts "Seeding database..."
 
 
 
