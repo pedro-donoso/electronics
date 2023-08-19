@@ -260,11 +260,21 @@ Gemfile
 ```
 # gemas agregadas por mi
 gem 'faker'
+
 ```
+
+en terminal:
 
 ```
 bundle
 ```
+
+### 28 Abro archivo seeds.rb
+
+rb -> seeds.rb
+
+agrego campos random que completara faker
+
 
 
 
