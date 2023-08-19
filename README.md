@@ -277,6 +277,21 @@ agrego campos random que completara faker
 
 agrego puts "Creando 100 productos.."
 
+### 29 Correr seeds
+
+en terminal:
+
+rails db:seed
+
+muestra mensaje "creando 100 productos"
+
+### 30 agrego condicion al productsController
+
+cambio product.all
+
+
+
+
 
 
 
