@@ -1,3 +1,5 @@
+![Captura de pantalla_2024-01-17_10-27-15](https://github.com/pedro-donoso/electronics/assets/68760595/f19e3f27-0580-404d-aeea-264606f66c72)
+
 ### 1 - Creo proyecto en terminal:
 
 ```bash
